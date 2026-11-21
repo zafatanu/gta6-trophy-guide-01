@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LEONIDA // PLATINUM FILES — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-view="command">
+<noscript><p class="noscript">This guide needs JavaScript: its trophy data loads from its own files in your browser, never from the network.</p></noscript>
+<header id="top">
+  <div class="brand">
+    <h1>LEONIDA <span class="slash">//</span> PLATINUM FILES</h1>
+    <p class="tagline">The most trustworthy GTA VI platinum guide — every fact cited, every doubt shown.</p>
+  </div>
+  <div class="progress-block">
+    <div id="progressBig">0 / 55</div>
+    <div id="progressBar"><div id="progressFill"></div></div>
+    <div id="progressLabel">trophies earned — progress saves in this browser</div>
+  </div>
+</header>
+<section id="auditStrip" aria-label="Claim audit — numbers computed live from the trophy data"></section>
+<nav id="toolbar" aria-label="Views and filters">
+  <div class="tabs" role="tablist" aria-label="Views">
+    <button type="button" data-view="command" class="tab active">Command Center</button>
+    <button type="button" data-view="database" class="tab">Trophy Database</button>
+    <button type="button" data-view="trophy" class="tab">Investigation</button>
+    <button type="button" data-view="roadmap" class="tab">Roadmap</button>
+    <button type="button" data-view="sources" class="tab">Sources</button>
+  </div>
+  <input id="search" type="search" placeholder="Search name, mission, place…" aria-label="Search trophies">
+  <select id="gradeFilter" aria-label="Filter by grade">
+    <option value="all">All grades</option>
+    <option value="platinum">Platinum</option>
+    <option value="gold">Gold</option>
+    <option value="silver">Silver</option>
+    <option value="bronze">Bronze</option>
+  </select>
+  <select id="kindFilter" aria-label="Filter by kind">
+    <option value="all">All kinds</option>
+    <option value="story">Story</option>
+    <option value="missable">Missable</option>
+    <option value="collectible">Collectibles</option>
+    <option value="activity">Activities</option>
+  </select>
+  <select id="statusFilter" aria-label="Filter by earned state">
+    <option value="all">Earned + remaining</option>
+    <option value="earned">Earned only</option>
+    <option value="remaining">Remaining only</option>
+  </select>
+  <label class="check"><input id="hiddenFilter" type="checkbox"> Hidden only</label>
+  <label class="check"><input id="missableFilter" type="checkbox"> Missable only</label>
+  <button id="spoilerToggle" type="button" aria-pressed="true">Spoiler shield: ON</button>
+  <button id="exportBtn" type="button">Export progress</button>
+  <label class="importBtn">Import progress <input id="importFile" type="file" accept="application/json,.json"></label>
+</nav>
+<p id="importError" role="alert" hidden></p>
+<main>
+  <section id="commandView" class="view">
+    <aside id="listPane" aria-label="Trophy list">
+      <h2>Trophy list <span id="listCount"></span></h2>
+      <ul id="trophyList"></ul>
+    </aside>
+    <article id="detailPane" aria-label="Trophy detail"></article>
+    <aside id="sidePane" aria-label="Next up and disputes">
+      <section id="nextUp" aria-label="Next up on the roadmap"></section>
+      <section id="sideDisputes" aria-label="Disputes"></section>
+      <section id="sideSources" aria-label="Source matrix summary"></section>
+    </aside>
+  </section>
+  <section id="databaseView" class="view" hidden>
+    <h2>Trophy Database — all 55, every claim cited</h2>
+    <p class="viewNote">Dense view. Click any row to open its investigation. Counts are computed from the data, not typed in.</p>
+    <table id="databaseTable">
+      <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>Kind</th><th>Ch.</th><th>Claims</th><th>2+ sources</th><th>Missable</th><th>Status</th></tr></thead>
+      <tbody id="databaseRows"></tbody>
+    </table>
+  </section>
+  <section id="trophyView" class="view" hidden>
+    <h2>Trophy Investigation &amp; Evidence</h2>
+    <p class="viewNote">The full guide for one trophy: its official text, its missable box, every cited claim, its sources, and its count tracker.</p>
+    <article id="trophyDetail" aria-label="Trophy investigation"></article>
+  </section>
+  <section id="roadmapView" class="view" hidden>
+    <h2>Roadmap to Platinum — 5 phases, chapter order</h2>
+    <p class="viewNote">~200 hours, difficulty 4/10, 1 playthrough, 0 online trophies, 15 manual save slots. Keep a save at the start and end of each chapter.</p>
+    <div id="roadmapPhases"></div>
+    <h3>Missable grid — points of no return in chapter order</h3>
+    <div id="missableGrid"></div>
+  </section>
+  <section id="sourcesView" class="view" hidden>
+    <h2>Sources &amp; Source Matrix</h2>
+    <p class="viewNote">Every source this guide cites, what it backs, and how many claims rest on it. No source is cited that was not read. GamesRadar was not verified and is never cited.</p>
+    <div id="sourceMatrix"></div>
+    <h3>Unconfirmed-method register</h3>
+    <div id="unconfirmedRegister"></div>
+  </section>
+</main>
+<footer>
+  <p id="judgeLine"></p>
+  <p class="fine">LEONIDA // PLATINUM FILES is an unofficial fan guide. No Rockstar Games logo or official artwork is used anywhere. Official trophy names and descriptions are shown as PlayStation publishes them; every guide is written in our own words. Works fully offline — the app fetches nothing but its own files.</p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

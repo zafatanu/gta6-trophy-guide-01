@@ -83,15 +83,62 @@ export function escapeHtml(s) {
     .replace(/"/g, '&quot;');
 }
 
-export function guideStepsHtml(guide) {
+const STOPWORDS = new Set(
+  'the a an and or of to in on at for with by is it its this that from after before when while as are was were be been do does did can could will would should not no yes all every each any some than then there here out up down over under into about between through during per'.split(
+    ' ',
+  ),
+);
+
+function contentWords(s) {
+  return new Set(
+    String(s)
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length >= 3 && !STOPWORDS.has(w)),
+  );
+}
+
+// Each guide step cites the numbered claims that support it: score every claim
+// by shared content words with the step, keep the best two with a real overlap.
+// The numbers point at the numbered Evidence list rendered below the guide.
+export function stepCitations(stepText, claims) {
+  const stepWords = contentWords(stepText);
+  const scored = (claims || []).map((c, i) => {
+    const words = contentWords(c.text);
+    let shared = 0;
+    for (const w of stepWords) if (words.has(w)) shared += 1;
+    return { i: i + 1, shared };
+  });
+  const best = scored
+    .filter((s) => s.shared >= 2)
+    .sort((a, b) => b.shared - a.shared || a.i - b.i)
+    .slice(0, 2);
+  if (best.length) return best.map((b) => b.i);
+  const fallback = scored.sort((a, b) => b.shared - a.shared || a.i - b.i)[0];
+  return fallback && fallback.shared >= 1 ? [fallback.i] : [];
+}
+
+export function guideStepsHtml(guide, claims = []) {
+  // Split only on a step number that follows a sentence end (". "), never on
+  // a number inside a sentence: "Chapter 1. 2. ..." must not split at "1. ".
   const parts = guide
-    .split(/(?=\d+\.\s)/)
+    .split(/(?<=\.\s)(?=\d+\.\s)/)
     .map((s) => s.trim())
     .filter(Boolean);
   if (parts.length > 1 && /^\d+\.\s/.test(parts[0])) {
     return (
+      `<h3>How to earn it — ${parts.length} steps, every step cited</h3>` +
       '<ol class="guideSteps">' +
-      parts.map((p) => `<li>${escapeHtml(p.replace(/^\d+\.\s/, ''))}</li>`).join('') +
+      parts
+        .map((p) => {
+          const text = p.replace(/^\d+\.\s/, '');
+          const cites = stepCitations(text, claims)
+            .map((n) => `<sup class="cite">[${n}]</sup>`)
+            .join('');
+          return `<li>${escapeHtml(text)} ${cites}</li>`;
+        })
+        .join('') +
       '</ol>'
     );
   }
@@ -151,15 +198,21 @@ function claimsHtml(t) {
 }
 
 function sourcesHtml(t) {
+  const docSources = (doc && doc.sources) || [];
+  const byName = new Map(docSources.map((s) => [s.name, s]));
   const items = (t.sources || [])
     .map((s) => {
       const link = s.url
         ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>`
         : escapeHtml(s.name);
-      return `<li>${link} — backs ${s.claims} claim${s.claims === 1 ? '' : 's'} on this trophy</li>`;
+      const pages = ((byName.get(s.name) || {}).pages || [])
+        .map((p) => `${escapeHtml(p.title)} — read ${escapeHtml(p.read)}`)
+        .join('; ');
+      const pageNote = pages ? ` — page: ${pages}` : ' — page not read live';
+      return `<li>${link} — backs ${s.claims} claim${s.claims === 1 ? '' : 's'} on this trophy${pageNote}</li>`;
     })
     .join('');
-  return `<h3>Sources for this guide</h3><ul class="srcList">${items}</ul>`;
+  return `<h3>Sources for this guide · ${t.sources.length}</h3><ul class="srcList">${items}</ul>`;
 }
 
 function disputesHtml(t) {
@@ -177,18 +230,20 @@ export function renderTrophyDetail(t, container) {
   }
   const masked = isSpoilerMasked(t, earned, spoilerOn);
   const isEarned = earned.has(t.id);
+  const n = trophies.findIndex((x) => x.id === t.id) + 1;
   container.innerHTML =
     `<h2 class="detailName">${escapeHtml(displayName(t))}</h2>` +
-    `<p class="detailDesc">${escapeHtml(displayDescription(t))}</p>` +
+    `<p class="officialDesc"><b>OFFICIAL DESCRIPTION</b><br>“${escapeHtml(displayDescription(t))}”<br><span class="tMeta">${t.grade} · #${n} of ${trophies.length}</span></p>` +
     `<p class="detailMeta"><span class="grade ${t.grade}">${t.grade}</span> ${escapeHtml(t.kind)}` +
     `${t.chapter ? ` · Chapter ${t.chapter}` : ''}${t.hidden ? ' · <span class="flag cyan">HIDDEN</span>' : ''}` +
     `${t.guideStatus === 'unconfirmed-method' ? ' · <span class="flag">UNCONFIRMED METHOD</span>' : ''}</p>` +
     `<p class="earnedToggle"><label><input type="checkbox" data-earned-toggle="${t.id}" ${isEarned ? 'checked' : ''}> Earned</label>` +
     `${masked ? ' <span class="spoilerMask">(earning it reveals the story text)</span>' : ''}</p>` +
-    (masked ? '' : `<h3>Guide — in our own words</h3>${guideStepsHtml(t.guide)}`) +
+    (masked ? '' : `<h3>Guide — in our own words</h3>${guideStepsHtml(t.guide, t.claims)}`) +
     missableBoxHtml(t) +
+    (masked ? '' : disputesHtml(t)) +
     trackerBoxHtml(t) +
-    (masked ? '' : disputesHtml(t) + claimsHtml(t) + sourcesHtml(t));
+    (masked ? '' : claimsHtml(t) + sourcesHtml(t));
   container.querySelectorAll('[data-earned-toggle]').forEach((box) => {
     box.addEventListener('change', () => toggleEarned(t.id, box.checked));
   });
@@ -409,6 +464,14 @@ function wireToolbar() {
     spoilerOn = !spoilerOn;
     saveSpoilerSetting(spoilerOn);
     paintSpoiler();
+  const missableBanner = document.getElementById('missableBanner');
+  const showMissable = document.getElementById('showMissable');
+  if (showMissable) {
+    showMissable.addEventListener('click', () => {
+      selectTrophy(LEONIDA_POSITIVE_MENTAL_ATTITUDE);
+      if (missableBanner) missableBanner.scrollIntoView({ block: 'nearest' });
+    });
+  }
     renderAll();
   });
   paintSpoiler();
@@ -445,7 +508,7 @@ async function initLeonidaGuide() {
     return;
   }
   trophies = doc.trophies || [];
-  audit = computeAudit(trophies);
+  audit = computeAudit(trophies, doc.sources || [], DISPUTE_PANELS);
   const viewParam = params.get('view');
   if (viewParam && ['command', 'database', 'trophy', 'roadmap', 'sources'].includes(viewParam)) {
     currentView = viewParam;

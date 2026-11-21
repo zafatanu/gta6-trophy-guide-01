@@ -5,7 +5,7 @@ export const DISPUTE_PANELS = [
     trophy: 'Positive Mental Attitude',
     title: 'SOURCES DIFFER — is the Chapter 1 balcony meditation required?',
     a: 'PowerPyx: the balcony meditation raises the counter by 1 but is not marked as a Meditation Spot like the rest, so it is currently unclear if it is required for the trophy. When the author earned the trophy, they had done the Chapter 1 meditation.',
-    b: 'The 100% checklist needs only 15 of 18 meditations, so the balcony one does not matter for 100%. The trophy itself wants every spot — all 18.',
+    b: 'KeenGamer lists it as the only currently identified potentially missable trophy-related interaction and says to complete the balcony meditation before leaving Chapter 1. The 100% checklist needs only 15 of 18 meditations, so the balcony one does not matter for 100%. The trophy itself wants every spot — all 18.',
     verdict: 'Do the balcony meditation in Chapter 1 and keep a Chapter 1 save. That is the only safe play.',
   },
   {
@@ -13,16 +13,16 @@ export const DISPUTE_PANELS = [
     trophy: 'Fair Game',
     title: 'UNCONFIRMED — which animal unlocks Fair Game?',
     a: 'PowerPyx: it is still undergoing confirmation which animal exactly unlocks this trophy. Bret’s line is about hunting the animals he requests; the trigger animal is not named.',
-    b: 'No second source names the animal either. Any guide that names one specific animal is guessing.',
+    b: 'No second source names the animal either. KeenGamer says only "hunt a unique animal for Bret". Any guide that names one specific animal is guessing.',
     verdict: 'Do the whole Bret line and all 15 Target Decks. Do not trust a single named animal until a source confirms it.',
   },
   {
     id: 'truth-spawn',
     trophy: 'The Truth Is Out There',
-    title: 'CAVEAT — the UFO spawn is random, not guaranteed',
-    a: 'PowerPyx: the easter egg is at the road north-west of Starlet Motel in Kelly County, at night after 2AM, solo. The blinking car that marks the trigger is only sometimes there.',
-    b: 'If the car is not there, drive away and come back. The method is confirmed; the spawn is the uncertain part.',
-    verdict: 'Expect several tries. This is the one trophy where patience, not skill, is the requirement.',
+    title: 'UNCONFIRMED — no published method yet, only a believed link',
+    a: 'PowerPyx: "This trophy is currently unknown (believed to be from UFO questline)." No location, time or trigger is given.',
+    b: 'KeenGamer: "Hidden trophy with an unconfirmed unlock method." No second source gives a method either.',
+    verdict: 'The UFO link is a belief, not a confirmed method. Do not trust any specific location or trigger until a source confirms one.',
   },
   {
     id: 'strangers-rest',
@@ -33,19 +33,51 @@ export const DISPUTE_PANELS = [
     verdict: 'Count only the four confirmed strands in your plan, and check the in-game trophy tracker for your running total.',
   },
   {
-    id: 'resolved-methods',
-    trophy: null,
-    title: 'RESOLVED — four methods earlier research flagged unconfirmed',
-    a: 'Early research flagged In The Beginning…, Capital Offense, Bad Luck I Guess and Ten Pin as unconfirmed. The live PowerPyx guide (read 21 Nov 2026) has full sections with screenshots for all four.',
-    b: 'The methods are now written into those four guides in our own words, each cited to PowerPyx. Nothing there is guessed.',
-    verdict: 'Flagged honestly at intake, resolved by reading the source — not by assuming.',
+    id: 'platinum-time',
+    trophy: 'Vice Got a Price!',
+    title: 'SOURCES DIFFER — how long does the platinum take?',
+    a: 'PowerPyx and KeenGamer both put the platinum at roughly 200 hours, difficulty 4/10.',
+    b: 'Push Square says to expect "up to 300 hours or more" for the same platinum.',
+    verdict: 'Plan for 200 hours; budget 300. The gap is in how much cleanup the writer assumes, not in the trophy list.',
+  },
+  {
+    id: 'in-the-beginning',
+    trophy: 'In The Beginning…',
+    title: 'UNCONFIRMED — no published method yet',
+    a: 'PowerPyx: "This trophy is currently unknown." No bar, drink or trigger is named.',
+    b: 'KeenGamer: "Enjoy a cocktail overlooking Ocean Beach. Exact trigger still being confirmed."',
+    verdict: 'No published method exists. Do not trust any specific bar or drink until a source confirms one.',
+  },
+  {
+    id: 'capital-offense',
+    trophy: 'Capital Offense',
+    title: 'UNCONFIRMED — no published method yet',
+    a: 'PowerPyx: "This trophy is currently unknown." No car or showroom is named.',
+    b: 'KeenGamer: "Escape from a vehicle showroom in the manner described by the trophy. Exact method still unconfirmed."',
+    verdict: 'No published method exists. Do not trust any specific car or showroom until a source confirms one.',
+  },
+  {
+    id: 'bad-luck',
+    trophy: 'Bad Luck, I Guess',
+    title: 'UNCONFIRMED — only a believed link, no method',
+    a: 'PowerPyx: "This trophy is currently unknown (believed to be related to the Payday Loans store from Prologue)."',
+    b: 'KeenGamer: "Hidden trophy with an unconfirmed unlock method." No second source gives a method either.',
+    verdict: 'The Payday Loans link is a belief, not a confirmed method. Do not trust any specific store or escape plan until a source confirms one.',
+  },
+  {
+    id: 'ten-pin',
+    trophy: 'Ten Pin',
+    title: 'UNCONFIRMED — only a believed link, no method',
+    a: 'PowerPyx: "This trophy is currently unknown (believed to be from kicking enemies while driving a motorcycle)."',
+    b: 'KeenGamer: "Perform the required melee drive-by elimination. Precise method still being confirmed."',
+    verdict: 'The motorcycle link is a belief, not a confirmed method. Do not trust any specific count or time limit until a source confirms one.',
   },
 ];
 
 export function renderDisputes(el, panels) {
   el.innerHTML = panels
     .map(
-      (d) => `<div class="dispute"><h4>${d.title}</h4><p>${d.trophy ? `Trophy: ${d.trophy}` : ''}</p><div class="ab"><div><b>A</b> — ${d.a}</div><div><b>B</b> — ${d.b}</div></div><p class="verdict">${d.verdict}</p></div>`,
+      (d) => `<div class="dispute" data-dispute="${d.id}"><h4>${d.title}</h4><p>${d.trophy ? `Trophy: ${d.trophy}` : ''}</p><div class="ab"><div><b>A</b> — ${d.a}</div><div><b>B</b> — ${d.b}</div></div><p class="verdict">${d.verdict}</p></div>`,
     )
     .join('');
 }

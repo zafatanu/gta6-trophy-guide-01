@@ -17,14 +17,6 @@ export const DISPUTE_PANELS = [
     verdict: 'Do the whole Bret line and all 15 Target Decks. Do not trust a single named animal until a source confirms it.',
   },
   {
-    id: 'truth-spawn',
-    trophy: 'The Truth Is Out There',
-    title: 'UNCONFIRMED — no published method yet, only a believed link',
-    a: 'PowerPyx: "This trophy is currently unknown (believed to be from UFO questline)." No location, time or trigger is given.',
-    b: 'KeenGamer: "Hidden trophy with an unconfirmed unlock method." No second source gives a method either.',
-    verdict: 'The UFO link is a belief, not a confirmed method. Do not trust any specific location or trigger until a source confirms one.',
-  },
-  {
     id: 'strangers-rest',
     trophy: 'Strangers & Freaks',
     title: 'STILL BEING CONFIRMED — the remaining qualifying strands',
@@ -39,38 +31,6 @@ export const DISPUTE_PANELS = [
     a: 'PowerPyx and KeenGamer both put the platinum at roughly 200 hours, difficulty 4/10.',
     b: 'Push Square says to expect "up to 300 hours or more" for the same platinum.',
     verdict: 'Plan for 200 hours; budget 300. The gap is in how much cleanup the writer assumes, not in the trophy list.',
-  },
-  {
-    id: 'in-the-beginning',
-    trophy: 'In The Beginning…',
-    title: 'UNCONFIRMED — no published method yet',
-    a: 'PowerPyx: "This trophy is currently unknown." No bar, drink or trigger is named.',
-    b: 'KeenGamer: "Enjoy a cocktail overlooking Ocean Beach. Exact trigger still being confirmed."',
-    verdict: 'No published method exists. Do not trust any specific bar or drink until a source confirms one.',
-  },
-  {
-    id: 'capital-offense',
-    trophy: 'Capital Offense',
-    title: 'UNCONFIRMED — no published method yet',
-    a: 'PowerPyx: "This trophy is currently unknown." No car or showroom is named.',
-    b: 'KeenGamer: "Escape from a vehicle showroom in the manner described by the trophy. Exact method still unconfirmed."',
-    verdict: 'No published method exists. Do not trust any specific car or showroom until a source confirms one.',
-  },
-  {
-    id: 'bad-luck',
-    trophy: 'Bad Luck, I Guess',
-    title: 'UNCONFIRMED — only a believed link, no method',
-    a: 'PowerPyx: "This trophy is currently unknown (believed to be related to the Payday Loans store from Prologue)."',
-    b: 'KeenGamer: "Hidden trophy with an unconfirmed unlock method." No second source gives a method either.',
-    verdict: 'The Payday Loans link is a belief, not a confirmed method. Do not trust any specific store or escape plan until a source confirms one.',
-  },
-  {
-    id: 'ten-pin',
-    trophy: 'Ten Pin',
-    title: 'UNCONFIRMED — only a believed link, no method',
-    a: 'PowerPyx: "This trophy is currently unknown (believed to be from kicking enemies while driving a motorcycle)."',
-    b: 'KeenGamer: "Perform the required melee drive-by elimination. Precise method still being confirmed."',
-    verdict: 'The motorcycle link is a belief, not a confirmed method. Do not trust any specific count or time limit until a source confirms one.',
   },
 ];
 

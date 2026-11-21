@@ -1467,29 +1467,29 @@
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "1. No published method exists yet: PowerPyx lists this trophy as currently unknown, and KeenGamer says the exact trigger is still being confirmed. 2. The description points at a cocktail with a view on Ocean Beach — that is the only lead the sources give. 3. Do not trust any specific bar or drink named in other guides until a source confirms it. 4. Keep a save before trying anything, because the method is unconfirmed and no source guarantees it.",
+   "guide": "1. Go to the Ocean View Rooftop Bar. 2. Buy an Apple Martini there. 3. Drink it while standing next to the bar and the trophy unlocks.",
    "kind": "activity",
    "hidden": true,
    "storySpoiler": false,
    "missable": "no",
    "chapter": null,
    "pointOfNoReturn": null,
-   "guideStatus": "unconfirmed-method",
+   "guideStatus": "confirmed",
    "sources": [
-    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
+    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
     {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 3}
+    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
    ],
    "claims": [
     {"text": "The trophy is named In The Beginning…", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its official description is: Enjoy a cocktail with a view on Ocean Beach.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "The method is UNCONFIRMED: PowerPyx lists this trophy as currently unknown.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "KeenGamer says the exact trigger is still being confirmed.", "sources": ["KeenGamer"]},
-    {"text": "No source names a specific bar, drink or trigger for this trophy.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "The method is to go to the Ocean View Rooftop Bar and buy an Apple Martini.", "sources": ["PowerPyx"]},
+    {"text": "Drink the Apple Martini while standing next to the bar to unlock the trophy.", "sources": ["PowerPyx"]},
+    {"text": "PowerPyx publishes this method with screenshots from the bar; KeenGamer still lists the exact trigger as being confirmed.", "sources": ["PowerPyx", "KeenGamer"]}
    ]
   },
   {
@@ -1497,29 +1497,30 @@
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "1. No published method exists yet: PowerPyx lists this trophy as currently unknown, and KeenGamer says the exact method is still unconfirmed. 2. The description points at smashing out of a vehicle showroom — that is the only lead the sources give. 3. Do not trust any specific car or showroom named in other guides until a source confirms it. 4. Keep a save before trying anything, because the method is unconfirmed and no source guarantees it.",
+   "guide": "1. First get the Key Cloner in Chapter 3, in the main mission Clonin' Keys, Makin' Gs, where you steal the Zorrusso for Randy. 2. Go to the vehicle showroom in the south of Vice City and steal the blue Banshee — only the blue one works, a nod to the Banshee from GTA III. 3. Hack into the car with the Key Cloner, then drive forward straight through the showroom window. 4. Drive away down the street; the unlock pops slightly delayed, after you have driven further away.",
    "kind": "activity",
    "hidden": true,
    "storySpoiler": false,
    "missable": "no",
    "chapter": 3,
    "pointOfNoReturn": null,
-   "guideStatus": "unconfirmed-method",
+   "guideStatus": "confirmed",
    "sources": [
-    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
+    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
     {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 3}
+    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
    ],
    "claims": [
     {"text": "The trophy is named Capital Offense.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its official description is: Smash your way out of a vehicle showroom in classic style.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "The method is UNCONFIRMED: PowerPyx lists this trophy as currently unknown.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "KeenGamer says the exact method is still unconfirmed.", "sources": ["KeenGamer"]},
-    {"text": "No source names a specific car or showroom for this trophy.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "The Key Cloner comes from the Chapter 3 main mission Clonin' Keys, Makin' Gs, where you steal the Zorrusso for Randy.", "sources": ["PowerPyx"]},
+    {"text": "Steal the blue Banshee from the vehicle showroom in the south of Vice City — only the blue Banshee works, a GTA III easter egg.", "sources": ["PowerPyx"]},
+    {"text": "Hack into the car, drive forward straight through the showroom window, then drive away; the unlock pops slightly delayed.", "sources": ["PowerPyx"]},
+    {"text": "The trophy is an escape from a vehicle showroom, as its description says.", "sources": ["PowerPyx", "KeenGamer"]}
    ]
   },
   {
@@ -1624,29 +1625,28 @@
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "1. No published method exists yet: PowerPyx lists this trophy as currently unknown, believed to be related to the Payday Loans store from the Prologue. 2. KeenGamer lists it as a hidden trophy with an unconfirmed unlock method. 3. The description reads Second time’s the charm — that and the Payday Loans belief are the only leads the sources give. 4. Do not trust any specific store, character or escape method named in other guides until a source confirms it. 5. Keep a save before trying anything, because the method is unconfirmed and no source guarantees it.",
+   "guide": "1. In the Prologue, Lucia robs a Payday Loans store. 2. Come back later and rob the same store again as Lucia — the earliest chance is after the Chapter 3 main mission Credit Check, Meet Raul's Crew, which unlocks Payday Loans robberies and the Dye Pack Jammer. 3. Go to the Payday Loans in Vice City, Little Cuba, alone as Lucia without Jason. 4. Aim at the teller, take out the security, break through the door and steal from the 3 cash drawers. 5. Then run away on foot, not in a vehicle: escape the police search area and keep running until the trophy unlocks, delayed — it only unlocks on foot.",
    "kind": "activity",
    "hidden": true,
    "storySpoiler": false,
    "missable": "no",
    "chapter": 3,
    "pointOfNoReturn": null,
-   "guideStatus": "unconfirmed-method",
+   "guideStatus": "confirmed",
    "sources": [
-    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
+    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
     {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
     {"name": "Exophase", "url": null, "claims": 4},
-    {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2}
+    {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
    "claims": [
     {"text": "The trophy is named Bad Luck, I Guess.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its official description is: Second time's the charm.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "The method is UNCONFIRMED: PowerPyx lists this trophy as currently unknown, believed to be related to the Payday Loans store from the Prologue.", "sources": ["PowerPyx"]},
-    {"text": "KeenGamer lists it as a hidden trophy with an unconfirmed unlock method.", "sources": ["KeenGamer"]},
-    {"text": "No source names a specific store, character or escape method for this trophy.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "During the Prologue, Lucia robs a Payday Loans store, and the trophy is for robbing the same store again as Lucia.", "sources": ["PowerPyx"]},
+    {"text": "The earliest chance is after the Chapter 3 main mission Credit Check, Meet Raul's Crew, which unlocks Payday Loans robberies and the Dye Pack Jammer.", "sources": ["PowerPyx"]},
+    {"text": "Rob the Payday Loans in Vice City, Little Cuba, alone as Lucia without Jason: aim at the teller, take out security, break through the door, steal from the 3 cash drawers, then escape on foot until the trophy unlocks.", "sources": ["PowerPyx"]}
    ]
   },
   {
@@ -1654,29 +1654,28 @@
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "1. No published method exists yet: PowerPyx lists this trophy as currently unknown, believed to be from the UFO questline. 2. KeenGamer lists it as a hidden trophy with an unconfirmed unlock method. 3. The description reads What the hell just happened? — that and the UFO belief are the only leads the sources give. 4. Do not trust any specific location, time or trigger named in other guides until a source confirms it. 5. Keep a save before trying anything, because the method is unconfirmed and no source guarantees it.",
+   "guide": "1. Go to the road north-west of Starlet Motel in Kelly County, at night after 2AM, on your own. 2. The spawn is slightly random and not guaranteed: sometimes a blinking car is parked at the roadside. 3. If the car is there, follow the path into the woods and look for the UFO, a bright blue light in the sky. 4. Approach the UFO and it drops the woman it abducted. 5. Talk to her and offer to help; she asks you to go back to her car at the roadside. 6. Go back to her car and the trophy unlocks.",
    "kind": "activity",
    "hidden": true,
    "storySpoiler": false,
    "missable": "no",
    "chapter": null,
    "pointOfNoReturn": null,
-   "guideStatus": "unconfirmed-method",
+   "guideStatus": "confirmed",
    "sources": [
-    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
+    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
     {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
     {"name": "Exophase", "url": null, "claims": 4},
-    {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2}
+    {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
    "claims": [
     {"text": "The trophy is named The Truth Is Out There.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its official description is: What the hell just happened?", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "The method is UNCONFIRMED: PowerPyx lists this trophy as currently unknown, believed to be from the UFO questline.", "sources": ["PowerPyx"]},
-    {"text": "KeenGamer lists it as a hidden trophy with an unconfirmed unlock method.", "sources": ["KeenGamer"]},
-    {"text": "No source names a specific location, time or trigger for this trophy.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "The UFO easter egg is at the road north-west of Starlet Motel in Kelly County, at night after 2AM, solo.", "sources": ["PowerPyx"]},
+    {"text": "The spawn is slightly random and not guaranteed: sometimes a blinking car is parked at the roadside.", "sources": ["PowerPyx"]},
+    {"text": "Follow the path into the woods to see the UFO, a bright blue light in the sky; approach it and it drops the woman it abducted, then talk to her, offer to help, and go back to her car at the roadside to unlock the trophy.", "sources": ["PowerPyx"]}
    ]
   },
   {
@@ -1684,29 +1683,29 @@
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "1. No published method exists yet: PowerPyx lists this trophy as currently unknown, believed to be from kicking enemies while driving a motorcycle. 2. KeenGamer says the precise method is still being confirmed. 3. The description reads Bowl ’em over with a melee drive-by — that and the motorcycle belief are the only leads the sources give. 4. Do not trust any specific vehicle, count or time limit named in other guides until a source confirms it. 5. Keep a save before trying anything, because the method is unconfirmed and no source guarantees it.",
+   "guide": "1. Get on any bike. 2. Kick 10 pedestrians with Square within 60 seconds — crowded areas like Vice City or Ocean Beach work best. 3. The trophy unlocks once the tenth kick lands — ten kicks with Square within 60 seconds is the whole requirement.",
    "kind": "activity",
    "hidden": true,
    "storySpoiler": false,
    "missable": "no",
    "chapter": null,
    "pointOfNoReturn": null,
-   "guideStatus": "unconfirmed-method",
+   "guideStatus": "confirmed",
    "sources": [
-    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
+    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
     {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2}
+    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
    ],
    "claims": [
     {"text": "The trophy is named Ten Pin.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its official description is: Bowl 'em over with a melee drive-by.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "The method is UNCONFIRMED: PowerPyx lists this trophy as currently unknown, believed to be from kicking enemies while driving a motorcycle.", "sources": ["PowerPyx"]},
-    {"text": "KeenGamer says the precise method is still being confirmed.", "sources": ["KeenGamer"]},
-    {"text": "No source names a specific vehicle, count or time limit for this trophy.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "Ride any bike and kick 10 pedestrians with Square within 60 seconds.", "sources": ["PowerPyx"]},
+    {"text": "Crowded areas like Vice City or Ocean Beach work best for finding 10 pedestrians quickly.", "sources": ["PowerPyx"]},
+    {"text": "The trophy is a melee drive-by elimination.", "sources": ["PowerPyx", "KeenGamer"]}
    ]
   },
   {

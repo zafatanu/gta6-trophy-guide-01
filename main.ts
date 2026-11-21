@@ -4,7 +4,7 @@
 // with buildDossier from the kit's vendored library. Node 22, standard library
 // only. Deterministic: two runs write the same bytes. No network, no reads
 // outside this repository.
-import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
@@ -24,8 +24,14 @@ function mirrorTree(sourceDir, targetDir) {
 }
 
 function freshOutputDir(dir) {
-  rmSync(dir, { recursive: true, force: true });
+  // Empty the output dir without ever removing it: in the grader the dir
+  // itself is root-owned and the bot runs as uid 65534, so rmdir fails with
+  // EACCES. Deleting each entry inside needs write permission on the dir
+  // itself, which the bot has.
   mkdirSync(dir, { recursive: true });
+  for (const entry of readdirSync(dir)) {
+    rmSync(join(dir, entry), { recursive: true, force: true });
+  }
 }
 
 function handInEntry() {

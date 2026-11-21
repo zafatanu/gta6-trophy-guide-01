@@ -104,6 +104,46 @@ export const DISPUTE_PANELS = [
     b: 'TechWiser, quoted by EGamers, warns that stranger mission chains behind five hidden trophies have windows linked to story progress, and says to begin those chains as soon as they unlock to be safe.',
     verdict: 'Start every stranger chain the moment it unlocks. If the "stay after story" version is right you lose nothing; if the warning is right you save the trophy.',
   },
+  {
+    id: 'shooting-range-12-vs-14',
+    trophy: 'The Shootist',
+    title: 'SOURCES DIFFER — 12 shooting range challenges or 14?',
+    a: 'PowerPyx’s dedicated shooting-range page says 12 challenges: 6 at Griffin (3 golds each, 18 golds) and 6 at Rodgers Ranch (4 golds each, 24 golds), 42 golds in total.',
+    b: 'PowerPyx’s own collectible guide lists “14 Shooting Range Challenges (42 Gold Medals)”.',
+    verdict: '12 is right — 6 + 6 courses, 42 golds either way. The 14 in the collectible guide looks like a slip (14 is the drone-location count).',
+  },
+  {
+    id: 'vehicle-scan-200-of-557',
+    trophy: 'A Long Road',
+    title: 'SOURCES DIFFER — scan 200 of 557 vehicles or 200 of 277?',
+    a: 'PowerPyx’s 100% intro says “scan any 200 of 557 vehicles with the WAiNK app”.',
+    b: 'Its own checklist line — and GTABase — say 200 of 277 Base Model Vehicles, and both say the 280 Standout vehicles do not count.',
+    verdict: '200 of 277 base models is right. 557 is the total vehicle count, not the scan pool.',
+  },
+  {
+    id: 'red-rocks-county',
+    trophy: 'Positive Mental Attitude',
+    title: 'SOURCES DIFFER — which county is the Red Rocks meditation in?',
+    a: 'PowerPyx and KeenGamer put the Red Rocks meditation in Kelly County, in Manifest Canyon where the railroad tracks cross the highway.',
+    b: 'Beebom puts it in “Manifest County”, north of Kelly County and south of Lummox County.',
+    verdict: 'Same spot, different county label — follow the map filter (Meditate Around Leonida), not the county name.',
+  },
+  {
+    id: 'throttled-minutes-vs-miles',
+    trophy: 'One Last Thing',
+    title: 'SOURCES DIFFER — Throttled: 2 minutes or 2 miles?',
+    a: 'PowerPyx: Throttled is “Maintain a speed of over 100mph in a motor vehicle for 2 minutes”.',
+    b: 'Insider Gaming: Throttled is “Maintain a speed of over 100mph in a motor vehicle for 2 miles”.',
+    verdict: 'Minutes vs miles — check the in-game challenge text before attempting it; do not trust either wording alone.',
+  },
+  {
+    id: 'robberies-everything',
+    trophy: 'A Long Road',
+    title: 'SOURCES DIFFER — do the robberies all need everything?',
+    a: 'PowerPyx and GTABase both say the only lines needing everything are “Robberies, Underwater Discoveries, Shooting Ranges, Drone Races, Bret’s Hunting Quests”.',
+    b: 'Their own tables say Stick Ups need only 50 of 91 and Smash ‘N’ Grabs 34 of 35.',
+    verdict: 'Only Gang Operations (39/39), Bank Jobs (22/22), Payday Loan Jobs (7/7) and Vaults (8/8) need every one. The “robberies need everything” summary is loose.',
+  },
 ];
 
 export function renderDisputes(el, panels) {

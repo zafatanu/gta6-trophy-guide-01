@@ -16,7 +16,8 @@
    "url": "https://www.gtabase.com/gta-6/achievements",
    "role": "Cross-check of names, grades, hidden status and roadmap steps — read live 21 Nov 2026",
    "pages": [
-    {"title": "GTA 6 Achievements", "url": "https://www.gtabase.com/gta-6/achievements", "read": "21 Nov 2026"}
+    {"title": "GTA 6 Achievements", "url": "https://www.gtabase.com/gta-6/achievements", "read": "21 Nov 2026"},
+    {"title": "GTA 6 Trophy Guide & Achievements List (PS5 & Xbox Series X|S)", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series", "read": "21 Nov 2026"}
    ]
   },
   {
@@ -46,6 +47,46 @@
    "pages": [
     {"title": "GTA 6: Trophy Guide & Roadmap (WIP)", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap", "read": "21 Nov 2026"}
    ]
+  },
+  {
+   "name": "Mobalytics",
+   "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-all-trophies",
+   "role": "Full trophy list + overview: only 1 possible missable, cheats disable trophies, free-roam after the story — read live 21 Nov 2026",
+   "pages": [
+    {"title": "Grand Theft Auto 6 - Full Trophy List & Walkthrough", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-all-trophies", "read": "21 Nov 2026"}
+   ]
+  },
+  {
+   "name": "Beebom",
+   "url": "https://beebom.com/gta-6-trophy-achievements-list/",
+   "role": "Full trophy list: names, grades, descriptions, 28 hidden, platinum around 200 hours — read live 21 Nov 2026",
+   "pages": [
+    {"title": "GTA 6 Trophy List: How to Unlock All Trophies and Achievements", "url": "https://beebom.com/gta-6-trophy-achievements-list/", "read": "21 Nov 2026"}
+   ]
+  },
+  {
+   "name": "Insider Gaming",
+   "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/",
+   "role": "Full trophy list: names, grades, descriptions, 28 hidden — read live 21 Nov 2026",
+   "pages": [
+    {"title": "Complete GTA 6 Trophy List—How To Get All Trophies & Achievements", "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/", "read": "21 Nov 2026"}
+   ]
+  },
+  {
+   "name": "EGamers",
+   "url": "https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/",
+   "role": "Trophy list + cross-source comparison: unconfirmed methods, 100% vs trophy numbers, 200-hour platinum — read live 21 Nov 2026",
+   "pages": [
+    {"title": "GTA 6 Trophy List: All 55 Trophies And Achievements, Plus The Hardest Ones", "url": "https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/", "read": "21 Nov 2026"}
+   ]
+  },
+  {
+   "name": "GamesFuze",
+   "url": "https://gamesfuze.com/gta-6-wiki/achievements/",
+   "role": "Full trophy list + platinum roadmap: 42 shooting range golds, 14 drone locations, cheats disable trophies — read live 21 Nov 2026",
+   "pages": [
+    {"title": "GTA 6 Trophy List: All 55 Trophies & Achievements", "url": "https://gamesfuze.com/gta-6-wiki/achievements/", "read": "21 Nov 2026"}
+   ]
   }
  ],
  "trophies": [
@@ -63,20 +104,27 @@
    "pointOfNoReturn": null,
    "guideStatus": "confirmed",
    "sources": [
-    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2}
+    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 3},
+    {"name": "Mobalytics", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-all-trophies", "claims": 2},
+    {"name": "Beebom", "url": "https://beebom.com/gta-6-trophy-achievements-list/", "claims": 4},
+    {"name": "Insider Gaming", "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/", "claims": 4},
+    {"name": "EGamers", "url": "https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/", "claims": 6},
+    {"name": "GamesFuze", "url": "https://gamesfuze.com/gta-6-wiki/achievements/", "claims": 3}
    ],
    "claims": [
-    {"text": "The trophy is named Vice Got a Price!", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "Its official description is: Congratulations! You're a Leonida Legend.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "Its grade is platinum, the only platinum in the set.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
+    {"text": "The trophy is named Vice Got a Price!", "sources": ["Exophase", "PSNProfiles", "GTABase", "Mobalytics", "Beebom", "Insider Gaming", "EGamers", "GamesFuze"]},
+    {"text": "Its official description is: Congratulations! You're a Leonida Legend.", "sources": ["Exophase", "PSNProfiles", "GTABase", "Beebom", "Insider Gaming"]},
+    {"text": "Its grade is platinum, the only platinum in the set.", "sources": ["Exophase", "PSNProfiles", "GTABase", "Mobalytics", "Beebom", "Insider Gaming", "EGamers", "GamesFuze"]},
     {"text": "It unlocks by earning all 54 other trophies.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "No multiplayer and no DLC is required for it.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "The platinum takes roughly 200 hours in total.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "The trophy is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]}
+    {"text": "The platinum takes roughly 200 hours in total.", "sources": ["PowerPyx", "KeenGamer", "EGamers"]},
+    {"text": "The trophy is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase", "Beebom", "Insider Gaming", "EGamers", "GamesFuze"]},
+    {"text": "Using cheats disables trophies and saving, so keep them off for a trophy run.", "sources": ["GTABase", "KeenGamer", "EGamers"]},
+    {"text": "PowerPyx breaks the roughly 200 hours into 60-80 hours of story, about 100 hours of checklist and about 10 hours of cleanup.", "sources": ["PowerPyx", "EGamers"]}
    ]
   },
   {
@@ -459,11 +507,12 @@
     "step": 1
    },
    "sources": [
-    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 10},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 11},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 8}
+    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 9},
+    {"name": "EGamers", "url": "https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/", "claims": 3}
    ],
    "claims": [
     {"text": "The trophy is named A Long Road.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
@@ -479,7 +528,9 @@
     {"text": "100% needs 70 of 80 challenges, so the hardest ones can be skipped.", "sources": ["PowerPyx", "KeenGamer"]},
     {"text": "100% needs 300 stunts, all robberies, all 8 bank vaults, all 39 illegal gang operations and all 15 Target Decks.", "sources": ["PowerPyx", "KeenGamer"]},
     {"text": "Nothing toward 100% is missable; everything is doable after the story in free-roam.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "The checklist is closer to 60% true completion, not a literal 100% of the game.", "sources": ["PowerPyx"]}
+    {"text": "The checklist is closer to 60% true completion, not a literal 100% of the game.", "sources": ["PowerPyx", "EGamers"]},
+    {"text": "A Long Road is the hardest trophy on the list.", "sources": ["PowerPyx", "GTABase", "EGamers"]},
+    {"text": "100% needs 15 complete card sets out of 18 in total.", "sources": ["KeenGamer", "EGamers"]}
    ]
   },
   {
@@ -502,7 +553,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2},
@@ -514,10 +565,10 @@
     {"text": "Its grade is silver.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Any 250 of 397 stunts count toward it.", "sources": ["PowerPyx", "KeenGamer", "Push Square"]},
-    {"text": "The four stunt kinds are 130 jumps, 202 under-bridge flights, 40 knife flights and 25 base jumps.", "sources": ["PowerPyx", "Push Square"]},
-    {"text": "Under-the-bridge flights are the quickest kind to complete.", "sources": ["PowerPyx"]},
-    {"text": "100% completion needs 300 stunts, more than this trophy.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "Stunt progress can be tracked by region in the Progress menu and by name on the map.", "sources": ["PowerPyx"]}
+    {"text": "The four stunt kinds are 130 jumps, 202 under-bridge flights, 40 knife flights and 25 base jumps.", "sources": ["PowerPyx", "Push Square", "GTABase"]},
+    {"text": "Under-the-bridge flights are the quickest kind to complete.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "100% completion needs 300 stunts, more than this trophy.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "Stunt progress can be tracked by region in the Progress menu and by name on the map.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -540,7 +591,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1},
@@ -553,9 +604,9 @@
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "The tracker counts 9 types of activities.", "sources": ["PowerPyx", "KeenGamer", "Push Square"]},
     {"text": "The 9 types are fishing, hunting, golf, shooting ranges, pool, basketball, a video game, a race and a stunt.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Activity progress is shown under Touchpad, Progress, Activities.", "sources": ["PowerPyx"]},
+    {"text": "Activity progress is shown under Touchpad, Progress, Activities.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Most activity types are introduced automatically by the story.", "sources": ["PowerPyx"]},
-    {"text": "While working on the other trophies and the 100% checklist you will do one of each activity automatically.", "sources": ["PowerPyx"]}
+    {"text": "While working on the other trophies and the 100% checklist you will do one of each activity automatically.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -578,7 +629,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1},
@@ -591,7 +642,7 @@
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "There are 42 shooting range challenges across 12 ranges.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Every one of the 42 challenges needs a gold medal.", "sources": ["PowerPyx", "KeenGamer", "Push Square"]},
-    {"text": "The gold medals are not too difficult, and the ranges are also required for 100% completion.", "sources": ["PowerPyx"]}
+    {"text": "The shooting ranges are required in full for 100% completion, and every gold medal counts.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -614,7 +665,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2},
@@ -626,8 +677,8 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "There are 14 Top Fun drone race locations.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "One win at each of the 14 locations is enough for the trophy.", "sources": ["PowerPyx", "KeenGamer", "Push Square"]},
-    {"text": "100% completion needs all 42 drone races.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "One win at each of the 14 locations is enough for the trophy.", "sources": ["PowerPyx", "KeenGamer", "Push Square", "GTABase"]},
+    {"text": "100% completion needs all 42 drone races.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]}
    ]
   },
   {
@@ -650,19 +701,20 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
-    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2}
+    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2},
+    {"name": "EGamers", "url": "https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/", "claims": 1}
    ],
    "claims": [
     {"text": "The trophy is named Earn Cash, Not Kudos.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its official description is: Win 20 different races.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "There are 40 unique race locations in total.", "sources": ["PowerPyx", "KeenGamer"]},
+    {"text": "There are 40 unique race locations in total.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
     {"text": "Only 20 different wins are needed; repeats of the same race do not count twice.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "The 100% checklist needs 30 of 40 unique races won.", "sources": ["KeenGamer"]}
+    {"text": "The 100% checklist needs 30 of 40 unique races won.", "sources": ["KeenGamer", "EGamers"]}
    ]
   },
   {
@@ -680,7 +732,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "Push Square", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap", "claims": 1}
@@ -691,7 +743,7 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Cal is met in the Chapter 1 main mission Feng Shui.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "After that mission Cal sends a text that marks a fishing location west of Key Lento.", "sources": ["PowerPyx"]},
+    {"text": "After Feng Shui, Cal texts you and marks a fishing spot with a purple icon.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Beating Cal in the fishing challenge at that spot unlocks the trophy.", "sources": ["PowerPyx", "Push Square"]}
    ]
   },
@@ -710,7 +762,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -719,9 +771,9 @@
     {"text": "Its official description is: Complete an arcade game.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "There are 4 arcade games: Tenebrae Lux, Street Trash III, Time Jackers Rewind and Bang For Your Buck.", "sources": ["PowerPyx"]},
-    {"text": "The first three are playable at the TV in your home from Chapter 1.", "sources": ["PowerPyx"]},
-    {"text": "Completing a game means finishing all of its levels at least once; beating every challenge is not needed.", "sources": ["PowerPyx"]},
+    {"text": "There are 4 arcade games: Tenebrae Lux, Street Trash III, Time Jackers Rewind and Bang For Your Buck.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The first three are playable on the TV at home.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Completing a game means reaching the end of it.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Any one of the four games counts.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
@@ -745,7 +797,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -755,8 +807,8 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Andy's questline is marked automatically in Chapter 3 and is exclusive to Lucia.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Andy has 5 quests, ending with Puff Puff Pass.", "sources": ["PowerPyx"]},
-    {"text": "All of Andy's quests stay available after the story.", "sources": ["PowerPyx"]}
+    {"text": "Andy has 5 quests, ending with Puff Puff Pass.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "All of Andy's quests stay available after the story.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -779,7 +831,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -789,9 +841,9 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Kenton's questline is marked automatically in Chapter 1, after Island Dreams.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Kenton wants 7 shipwrecks cleared in total.", "sources": ["PowerPyx"]},
-    {"text": "Kenton becomes temporarily unavailable after Chapter 1 and returns in Chapters 2-3, so the line is not missable.", "sources": ["PowerPyx"]},
-    {"text": "Progress can be tracked under Progress, Characters, Kenton Rees and Progress, Collections, Kenton's Treasures.", "sources": ["PowerPyx"]}
+    {"text": "Kenton wants 7 shipwrecks cleared in total.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Kenton becomes temporarily unavailable after Chapter 1 and returns in Chapters 2-3, so the line is not missable.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Progress can be tracked under Progress, Collections, Kenton's Treasures.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -799,7 +851,7 @@
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "1. Billy's questline is marked automatically after the Chapter 2 main mission Coffee Break, at Thrillbilly Mudclub in Kelly County. 2. Complete all 5 Billy quests: Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats, The Impaler, and Hometown Heroes. 3. The last one unlocks the trophy, and the whole line stays available after the story.",
+   "guide": "1. Billy's questline is marked automatically after the Chapter 2 main mission Coffee Break, at Thrillbilly Mudclub in Kelly County. 2. Complete all 5 Billy jobs at the Thrillbilly Mudclub, ending with Hometown Heroes. 3. The last one unlocks the trophy, and the whole line stays available after the story.",
    "kind": "activity",
    "hidden": true,
    "storySpoiler": false,
@@ -814,7 +866,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -824,8 +876,8 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Billy's questline is marked automatically after the Chapter 2 mission Coffee Break, at Thrillbilly Mudclub in Kelly County.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Billy has 5 quests, ending with Hometown Heroes.", "sources": ["PowerPyx"]},
-    {"text": "All of Billy's quests stay available after the story.", "sources": ["PowerPyx"]}
+    {"text": "Billy has 5 quests, ending with Hometown Heroes.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "All of Billy's quests stay available after the story.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -848,7 +900,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 6},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 10},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -858,11 +910,11 @@
     {"text": "Its grade is silver.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Only certain questlines count; many optional questlines do not.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Kirk, Kyle, Yago and Pilot Pete are confirmed to count.", "sources": ["PowerPyx"]},
-    {"text": "Moses, Tyrone, Yasmani, Andy, Billy and Eddie do NOT count.", "sources": ["PowerPyx"]},
-    {"text": "More qualifying strangers are still being discovered and confirmed.", "sources": ["PowerPyx"]},
-    {"text": "The in-game trophy tracker shows how many strands are completed.", "sources": ["PowerPyx"]},
-    {"text": "Strangers & Freaks stay available after the story in free-roam.", "sources": ["PowerPyx"]}
+    {"text": "Kirk, Kyle, Yago and Pilot Pete are confirmed to count.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Moses, Tyrone, Yasmani, Andy, Billy and Eddie do NOT count.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "More qualifying strangers are still being discovered and confirmed.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The in-game trophy tracker shows how many strands are completed.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Strangers & Freaks stay available after the story in free-roam.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -885,7 +937,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -895,8 +947,8 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Randy's Wish List is marked automatically after the Chapter 3 mission Clonin' Keys, Makin' Gs.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Randy wants 16 sports cars delivered in total.", "sources": ["PowerPyx"]},
-    {"text": "The Key Cloner is unlocked during that same story mission.", "sources": ["PowerPyx"]},
+    {"text": "Randy wants 16 sports cars delivered in total.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The Key Cloner is unlocked during that same story mission.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Cars on the list can be tracked under Map, Robberies, Randy's Wish List.", "sources": ["PowerPyx"]},
     {"text": "The wish list can still be completed after the story.", "sources": ["PowerPyx"]}
    ]
@@ -950,11 +1002,13 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 8},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 12},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 2},
-    {"name": "Push Square", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap", "claims": 1}
+    {"name": "Push Square", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap", "claims": 1},
+    {"name": "EGamers", "url": "https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/", "claims": 1},
+    {"name": "Mobalytics", "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-all-trophies", "claims": 1}
    ],
    "claims": [
     {"text": "The trophy is named Positive Mental Attitude.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
@@ -962,13 +1016,13 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "There are 18 meditation spots across 10 locations.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Meditating with both Jason and Lucia at one spot counts as +2.", "sources": ["PowerPyx"]},
+    {"text": "Meditating with both Jason and Lucia at one spot counts as +2.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "The Chapter 1 balcony meditation at Jason's house becomes permanently unavailable after Chapter 1.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "The balcony meditation happens after the Chapter 1 mission Down to Earth, when Lucia walks to the balcony in the morning.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "It is still unclear whether the Chapter 1 balcony meditation is required for the trophy.", "sources": ["PowerPyx"]},
-    {"text": "For 100% completion only 15 of 18 meditations are needed.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "This is the only potentially missable trophy in the set; there is 1 potentially missable trophy and 0 glitched trophies.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Meditation spots can be tracked under Progress, Collections, Exploration, Meditations.", "sources": ["PowerPyx", "Push Square"]}
+    {"text": "The balcony meditation happens after the Chapter 1 mission Down to Earth, when Lucia walks to the balcony in the morning.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "It is still unclear whether the Chapter 1 balcony meditation is required for the trophy.", "sources": ["PowerPyx", "GTABase", "EGamers"]},
+    {"text": "For 100% completion only 15 of 18 meditations are needed.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "This is the only potentially missable trophy in the set; there is 1 potentially missable trophy and 0 glitched trophies.", "sources": ["PowerPyx", "GTABase", "Mobalytics"]},
+    {"text": "Meditation spots can be tracked under Progress, Collections, Exploration, Meditations.", "sources": ["PowerPyx", "Push Square", "GTABase"]}
    ]
   },
   {
@@ -986,7 +1040,7 @@
    "guideStatus": "unconfirmed-method",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -997,10 +1051,10 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Bret Vogel's questline is marked after the Chapter 2 mission Coffee Break and is Jason-only.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Bret's first quest is Veteran Hunted, in Lummox County.", "sources": ["PowerPyx"]},
+    {"text": "Bret's first quest is Veteran Hunted, in Lummox County.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Bret gives the unique hunting rifle Killtelligence SM-69 in his first quest.", "sources": ["PowerPyx"]},
-    {"text": "There are 15 Target Decks in total, and all 15 are needed for 100% completion.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "It is still undergoing confirmation which animal exactly unlocks this trophy — the trigger animal is UNCONFIRMED.", "sources": ["PowerPyx"]}
+    {"text": "There are 15 Target Decks in total, and all 15 are needed for 100% completion.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "It is still undergoing confirmation which animal exactly unlocks this trophy — the trigger animal is UNCONFIRMED.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1058,7 +1112,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1},
@@ -1069,9 +1123,9 @@
     {"text": "Its official description is: WAiNK It at 100 locations.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is silver.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "WAiNK scans are done by holding Up then R1 while looking at an object.", "sources": ["PowerPyx"]},
+    {"text": "WAiNK scans are done by holding Up then R1 while looking at an object.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Any 100 locations count; there are more than 100 in the world.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "The scannable types include 31 landmarks, 35 curiosities and 23 sculptures.", "sources": ["PowerPyx", "Push Square"]},
+    {"text": "The scannable types include 31 landmarks, 35 curiosities and 23 sculptures.", "sources": ["PowerPyx", "Push Square", "GTABase"]},
     {"text": "100% completion needs the same 100 WAiNK scans.", "sources": ["PowerPyx", "KeenGamer"]}
    ]
   },
@@ -1095,7 +1149,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1},
@@ -1107,8 +1161,8 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "There are 80 challenges in total; any 50 count.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "100% completion needs 70 of 80 challenges.", "sources": ["PowerPyx", "KeenGamer", "Push Square"]},
-    {"text": "Challenges are tracked under Progress, Challenges.", "sources": ["PowerPyx"]}
+    {"text": "100% completion needs 70 of 80 challenges.", "sources": ["PowerPyx", "KeenGamer", "Push Square", "GTABase"]},
+    {"text": "Challenges are tracked under Progress, Challenges.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1126,7 +1180,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 9},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1136,10 +1190,10 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Free-roaming together as Jason and Lucia unlocks after the Chapter 2 mission Coffee Break.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "A 4-star wanted level is needed, with the partner present.", "sources": ["PowerPyx"]},
-    {"text": "The trophy unlocks after leaving the red heat zone, not just the flashing search area.", "sources": ["PowerPyx"]},
-    {"text": "The train tunnel north of Ambrosia is a reliable escape route.", "sources": ["PowerPyx"]},
-    {"text": "Robbing large bank vaults in Chapter 4 also triggers 4-star wanted levels and can unlock this automatically.", "sources": ["PowerPyx"]}
+    {"text": "A 4-star wanted level is needed, with the partner present.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The trophy unlocks after leaving the red heat zone, not just the flashing search area.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The train tunnel north of Ambrosia is a reliable escape route.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Robbing large bank vaults in Chapter 4 also triggers 4-star wanted levels and can unlock this automatically.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1157,7 +1211,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 6},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 10},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1167,11 +1221,11 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It can only be started after the Chapter 2 mission Coffee Break, when partner play unlocks.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Three shops must be robbed in a row while the wanted level is kept the whole time.", "sources": ["PowerPyx"]},
-    {"text": "The unlock is delayed by about half a minute after leaving the third shop.", "sources": ["PowerPyx"]},
-    {"text": "The 3 jewelry stores in the north of Vice City are a good place to do it.", "sources": ["PowerPyx"]},
-    {"text": "If it does not unlock after the third shop, a fourth shop can complete it.", "sources": ["PowerPyx"]},
-    {"text": "Equip an armored vest and sticky bombs from Ammu-Nation, plus Zombix or Adrenaline for healing.", "sources": ["PowerPyx"]}
+    {"text": "Three shops must be robbed in a row while the wanted level is kept the whole time.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The unlock is delayed by about half a minute after leaving the third shop.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The 3 jewelry stores in the north of Vice City are a good place to do it.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "If it does not unlock after the third shop, a fourth shop can complete it.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Equip an armored vest and sticky bombs from Ammu-Nation, plus Zombix or Adrenaline for healing.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1194,7 +1248,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1205,8 +1259,8 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "The game has 557 vehicles at launch.", "sources": ["PowerPyx"]},
-    {"text": "Vehicles are discovered by scanning them with the WAiNK app; driving them is not needed.", "sources": ["PowerPyx"]},
-    {"text": "100% completion needs 200 of 277 base-model vehicles scanned.", "sources": ["PowerPyx", "KeenGamer"]},
+    {"text": "Vehicles are discovered by scanning them with the WAiNK app; driving them is not needed.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "100% completion needs 200 of 277 base-model vehicles scanned.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
     {"text": "Discovered-vehicle totals are shown under Touchpad, Progress, Vehicles.", "sources": ["PowerPyx"]}
    ]
   },
@@ -1225,7 +1279,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 9},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1234,11 +1288,11 @@
     {"text": "Its official description is: Take down 5 enemies in a single use of Combat Focus.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "Combat Focus is activated with L3 + R3 while aiming a firearm.", "sources": ["PowerPyx"]},
+    {"text": "Combat Focus is activated with L3 + R3 while aiming a firearm.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Five enemies must be taken down in one single activation.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Adrenaline extends Combat Focus time.", "sources": ["PowerPyx"]},
-    {"text": "It does not seem to work on soldiers, police or civilians.", "sources": ["PowerPyx"]},
-    {"text": "Focus has 4 levels and rises through shooting ranges, golf, pool, fishing and headshots.", "sources": ["PowerPyx"]}
+    {"text": "Adrenaline extends Combat Focus time.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "It does not seem to work on soldiers, police or civilians.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Shooting ranges raise Focus, which helps with Gunslinger.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1256,7 +1310,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1265,9 +1319,9 @@
     {"text": "Its official description is: Make an unscheduled departure at VCIA.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "It needs a large passenger plane docked to a departure terminal, not one on the airfield.", "sources": ["PowerPyx"]},
-    {"text": "The easiest plane is the one at departure terminals E3/E4.", "sources": ["PowerPyx"]},
-    {"text": "The trophy unlocks after flying 1 km (0.6 miles) away from the airport.", "sources": ["PowerPyx"]},
+    {"text": "It needs a large passenger plane docked to a departure terminal, not one on the airfield.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The easiest plane is the one at departure terminals E3/E4.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The trophy unlocks after flying 1 km (0.6 miles) away from the airport.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "The unlock is slightly delayed.", "sources": ["PowerPyx"]}
    ]
   },
@@ -1286,7 +1340,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1296,7 +1350,7 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is unlocked by stealing a military tank and shooting enemies with it.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "The tanks are at Mile Zero Air Station, in the south of the air base.", "sources": ["PowerPyx"]}
+    {"text": "The tanks are at Mile Zero Air Station, in the south of the air base.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1314,7 +1368,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1324,9 +1378,9 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "The Chapter 3 mission Yasmani's Jewelry Jobs unlocks the Snap Gun and jewelry store robberies.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "The back door must be opened with the Snap Gun; kicking it triggers the alarm.", "sources": ["PowerPyx"]},
-    {"text": "The safe code is on a note in the backroom, and the security footage and alarm should be dealt with there.", "sources": ["PowerPyx"]},
-    {"text": "Richardson Jewelry & Diamonds in Vice City is a good location for it.", "sources": ["PowerPyx"]},
+    {"text": "The back door must be opened with the Snap Gun; kicking it triggers the alarm.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The safe code is on a note in the back room.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Richardson Jewelry & Diamonds in Vice City is a good location for it.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "The trophy unlocks shortly after leaving the store.", "sources": ["PowerPyx"]}
    ]
   },
@@ -1350,7 +1404,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 6},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 9},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1362,10 +1416,10 @@
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Bank vault robberies open through the Chapter 4 optional mission That's Where The Money Is…", "sources": ["PowerPyx", "GTABase"]},
     {"text": "The first vault is robbed automatically as part of that mission.", "sources": ["PowerPyx"]},
-    {"text": "Yasmani sells security-van tips for $10,000 after his earlier quests.", "sources": ["PowerPyx"]},
-    {"text": "There are 8 large bank jobs in total; this trophy needs any 5, 100% needs all 8.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "Robbing a bank vault instantly gives a 4-star wanted level.", "sources": ["PowerPyx"]},
-    {"text": "One bank can pay up to $205,000.", "sources": ["PowerPyx"]}
+    {"text": "Yasmani sells security-van tips for $10,000.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "There are 8 large bank jobs in total; this trophy needs any 5, 100% needs all 8.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "Robbing a bank vault instantly gives a 4-star wanted level.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "One bank can pay up to $205,000.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1383,7 +1437,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1393,8 +1447,8 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Robbing a large bank vault in the Chapter 4 mission automatically counts as robbing an armored truck.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Armored trucks also drive around Vice City near banks and can be robbed directly with a sticky bomb on the back door.", "sources": ["PowerPyx"]},
-    {"text": "The trophy unlocks only after escaping the red heat radius.", "sources": ["PowerPyx"]},
+    {"text": "An armored truck can also be robbed directly with a sticky bomb on its back doors.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The trophy unlocks only after escaping the red heat radius.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Yasmani unlocks as a fence from the Chapter 3 mission Yasmani's Jewelry Jobs.", "sources": ["PowerPyx"]}
    ]
   },
@@ -1413,7 +1467,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 2},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1423,7 +1477,7 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It needs the whole map unfogged.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Flying a plane over fogged areas is the fastest way to unfog the map.", "sources": ["PowerPyx"]}
+    {"text": "Flying a plane over fogged areas is the fastest way to unfog the map.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1446,7 +1500,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1457,9 +1511,9 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "There are 9 gangs and 39 illegal gang operations in total.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "One operation per gang is enough for the trophy; 100% needs all 39.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "Operations are marked by yellow icons on the map when you go near them.", "sources": ["PowerPyx"]},
-    {"text": "Per-gang progress is shown under Progress, Gangs.", "sources": ["PowerPyx"]}
+    {"text": "One operation per gang is enough for the trophy; 100% needs all 39.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "Operations are marked by yellow icons on the map when you go near them.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Per-gang progress is shown under Progress, Gangs.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1477,7 +1531,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1489,7 +1543,7 @@
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "The method is to go to the Ocean View Rooftop Bar and buy an Apple Martini.", "sources": ["PowerPyx"]},
     {"text": "Drink the Apple Martini while standing next to the bar to unlock the trophy.", "sources": ["PowerPyx"]},
-    {"text": "PowerPyx publishes this method with screenshots from the bar; KeenGamer still lists the exact trigger as being confirmed.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "PowerPyx publishes this method with screenshots from the bar; KeenGamer and GTABase still list the exact trigger as unconfirmed.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]}
    ]
   },
   {
@@ -1507,7 +1561,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1517,10 +1571,10 @@
     {"text": "Its official description is: Smash your way out of a vehicle showroom in classic style.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "The Key Cloner comes from the Chapter 3 main mission Clonin' Keys, Makin' Gs, where you steal the Zorrusso for Randy.", "sources": ["PowerPyx"]},
+    {"text": "The Key Cloner comes from the Chapter 3 main mission Clonin' Keys, Makin' Gs.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Steal the blue Banshee from the vehicle showroom in the south of Vice City — only the blue Banshee works, a GTA III easter egg.", "sources": ["PowerPyx"]},
     {"text": "Hack into the car, drive forward straight through the showroom window, then drive away; the unlock pops slightly delayed.", "sources": ["PowerPyx"]},
-    {"text": "The trophy is an escape from a vehicle showroom, as its description says.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "The trophy is an escape from a vehicle showroom, as its description says.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]}
    ]
   },
   {
@@ -1538,7 +1592,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1549,9 +1603,9 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is unlocked by stealing all 3 key valuables at Kingpin Bowling in Port Gellhorn.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "The 3 valuables are a luxury watch, the Gutterball Moreland 850 shotgun, and a safe opened with code 0300 or sticky bombs.", "sources": ["PowerPyx"]},
-    {"text": "The trophy unlocks after escaping the police, not when the third item is picked up.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "It is not missable: missed valuables can be collected later when the robbery icon respawns.", "sources": ["PowerPyx"]}
+    {"text": "The 3 valuables are a luxury watch, the Gutterball Moreland 850 shotgun, and a safe in the north-east hallway (sticky bombs work on it).", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The trophy unlocks after escaping the police, not when the third item is picked up.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "It is not missable: missed valuables can be collected later when the robbery icon respawns.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1569,7 +1623,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1580,8 +1634,8 @@
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It needs maximum Strength with both Jason and Lucia at the same time.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "It can only be started after the Chapter 2 mission Coffee Break, when character switching unlocks.", "sources": ["PowerPyx"]},
-    {"text": "Strength is raised by working out at fitness clubs; going together doubles progress.", "sources": ["PowerPyx"]},
-    {"text": "Strength is checked under Touchpad, Jason & Lucia, per character.", "sources": ["PowerPyx"]}
+    {"text": "Strength is raised by working out at fitness clubs; going together doubles progress.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Strength is checked under Touchpad, Jason & Lucia, per character.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1604,7 +1658,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 7},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1616,8 +1670,8 @@
     {"text": "It needs 500 actions that affect the criminal profile.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Progress toward the 500 is shown by clicking the trophy in the trophy list.", "sources": ["PowerPyx"]},
     {"text": "The profile has five tiers: Professional, Hardened, Violent, Psycho and Irredeemable.", "sources": ["PowerPyx"]},
-    {"text": "Irredeemable is permanent and should be avoided.", "sources": ["PowerPyx"]},
-    {"text": "It happens passively while working on the other trophies and the 100% checklist.", "sources": ["PowerPyx"]}
+    {"text": "Irredeemable is permanent and should be avoided.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "It happens passively while working on the other trophies and the 100% checklist.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1693,7 +1747,7 @@
    "guideStatus": "confirmed",
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 4},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1705,7 +1759,7 @@
     {"text": "It is hidden on PlayStation until earned.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Ride any bike and kick 10 pedestrians with Square within 60 seconds.", "sources": ["PowerPyx"]},
     {"text": "Crowded areas like Vice City or Ocean Beach work best for finding 10 pedestrians quickly.", "sources": ["PowerPyx"]},
-    {"text": "The trophy is a melee drive-by elimination.", "sources": ["PowerPyx", "KeenGamer"]}
+    {"text": "The trophy is a melee drive-by elimination.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]}
    ]
   },
   {
@@ -1728,7 +1782,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 4},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4},
     {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/", "claims": 1}
@@ -1739,9 +1793,9 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "The Chapter 3 mission Credit Check unlocks the Dye Pack Jammer for laundering marked bills.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Marked bills are delivered to a fence; Yasmani in Vice City pays the most.", "sources": ["PowerPyx"]},
-    {"text": "The $250,000 total counts across all robberies, not in one delivery.", "sources": ["PowerPyx", "KeenGamer"]},
-    {"text": "Bank vaults can pay up to $205,000 in a single robbery.", "sources": ["PowerPyx"]}
+    {"text": "Marked bills are delivered to a fence; Yasmani in Vice City pays the most.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The $250,000 total counts across all robberies, not in one delivery.", "sources": ["PowerPyx", "KeenGamer", "GTABase"]},
+    {"text": "Bank vaults can pay up to $205,000 in a single robbery.", "sources": ["PowerPyx", "GTABase"]}
    ]
   },
   {
@@ -1764,7 +1818,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 3},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 6},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1774,7 +1828,7 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "The $100,000 is a cumulative total across all shop types.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Guns, car mods and tattoos are the fastest way to spend it.", "sources": ["PowerPyx"]},
+    {"text": "Guns, car mods and tattoos are the fastest way to spend it.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "The world has 14 mod shops, 19 Pay 'n' Sprays, 24 Ammu-Nations, 67 clothing stores, 17 footwear stores, 18 hair and beauty salons, 11 tattoo studios and 15 electronics stores.", "sources": ["PowerPyx"]}
    ]
   },
@@ -1798,7 +1852,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 8},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1807,10 +1861,10 @@
     {"text": "Its official description is: Purchase all garage properties.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
-    {"text": "Only the 8 purchasable garages count; the 4 story-related garages do not.", "sources": ["PowerPyx"]},
-    {"text": "The 8 garages cost $160,000 in total.", "sources": ["PowerPyx"]},
+    {"text": "Only the 8 purchasable garages count; the 4 story-related garages do not.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "The 8 garages cost $160,000 in total.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "Garages become available after the Chapter 2 mission Daily Driver and are bought through the Vice City Real Estate phone app.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "There are 12 garage locations in total.", "sources": ["PowerPyx"]},
+    {"text": "There are 12 garage locations in total.", "sources": ["PowerPyx", "GTABase"]},
     {"text": "A quick way to make the money is robberies, especially the higher-value ones in Chapters 3-4.", "sources": ["PowerPyx"]}
    ]
   },
@@ -1834,7 +1888,7 @@
    },
    "sources": [
     {"name": "PowerPyx", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/", "claims": 5},
-    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 5},
+    {"name": "GTABase", "url": "https://www.gtabase.com/gta-6/achievements", "claims": 9},
     {"name": "Exophase", "url": null, "claims": 4},
     {"name": "PSNProfiles", "url": null, "claims": 4}
    ],
@@ -1844,10 +1898,10 @@
     {"text": "Its grade is bronze.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "It is visible on the list, not hidden.", "sources": ["Exophase", "PSNProfiles", "GTABase"]},
     {"text": "The Scooter Bros app is installed after the Chapter 2 mission Moses.", "sources": ["PowerPyx", "GTABase"]},
-    {"text": "Vehicles are registered by driving them to Moses in Port Gellhorn and choosing Respray and Register.", "sources": ["PowerPyx"]},
-    {"text": "Enough garages must be bought first, since each garage adds parking spots.", "sources": ["PowerPyx"]},
-    {"text": "From Chapter 3, cars with Standard Trackers can also be registered at any Pay 'n' Spray.", "sources": ["PowerPyx"]},
-    {"text": "Registering vehicles costs money; cheap cars and bikes keep expenses low.", "sources": ["PowerPyx"]}
+    {"text": "Vehicles are registered by driving them to Moses in Port Gellhorn and choosing Respray and Register.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Enough garages must be bought first, since each garage adds parking spots.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "From Chapter 3, cars with Standard Trackers can also be registered at any Pay 'n' Spray.", "sources": ["PowerPyx", "GTABase"]},
+    {"text": "Registering vehicles costs money; cheap cars and bikes keep expenses low.", "sources": ["PowerPyx", "GTABase"]}
    ]
   }
  ]

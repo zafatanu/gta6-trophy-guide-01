@@ -61,6 +61,7 @@ button:hover, .importBtn:hover { border-color: var(--gold); }
 #importError { background: #3a1712; border: 1px solid var(--red); color: #f2b8b0; padding: 8px 12px; border-radius: var(--radius); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; }
 
 main { padding-top: 6px; }
+.view[hidden] { display: none !important; }
 .viewNote { color: var(--ink-dim); font-style: italic; margin: 2px 0 10px; }
 
 /* Command Center: dense 3-pane */
@@ -87,14 +88,14 @@ main { padding-top: 6px; }
 .detailName { font-size: 20px; margin: 0 0 2px; color: var(--gold-soft); }
 .detailDesc { font-style: italic; color: var(--ink-dim); margin: 0 0 8px; }
 .detailMeta { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; color: var(--ink-dim); margin-bottom: 10px; }
-.guideSteps { margin: 8px 0; padding-left: 18px; }
-.guideSteps li { margin-bottom: 4px; }
+.guideSteps { margin: 6px 0; padding-left: 18px; }
+.guideSteps li { margin-bottom: 2px; }
 .missableBox { border: 1px solid var(--line); border-left: 4px solid var(--green); border-radius: var(--radius); padding: 8px 10px; margin: 10px 0; background: var(--graphite); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12.5px; }
 .missableBox.potential { border-left-color: var(--red); background: #2a1a16; }
 .missableBox.potential b { color: var(--red); }
 .missableBox b { color: var(--green); }
-.claimsList { margin: 8px 0; padding-left: 16px; font-size: 13px; }
-.claimsList li { margin-bottom: 3px; }
+.claimsList { margin: 6px 0; padding-left: 16px; font-size: 12.5px; }
+.claimsList li { margin-bottom: 2px; }
 .chip { display: inline-block; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; font-weight: bold; background: var(--cyan-dim); color: #eafcff; border-radius: 3px; padding: 1px 5px; margin-left: 4px; white-space: nowrap; }
 .chip.two { background: var(--gold); color: #17130a; }
 .srcList { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; margin: 6px 0; }
@@ -104,7 +105,7 @@ main { padding-top: 6px; }
 .stepper button { font-size: 14px; padding: 2px 10px; margin: 0 4px; }
 .earnedToggle { margin: 10px 0; }
 .earnedToggle label { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: bold; cursor: pointer; }
-.dispute { border: 1px solid var(--line); border-left: 4px solid var(--cyan); border-radius: var(--radius); padding: 8px 10px; margin: 8px 0; background: var(--graphite); font-size: 13px; }
+.dispute { border: 1px solid var(--line); border-left: 4px solid var(--cyan); border-radius: var(--radius); padding: 6px 10px; margin: 6px 0; background: var(--graphite); font-size: 13px; }
 .dispute h4 { margin: 0 0 4px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12.5px; color: var(--cyan); }
 .dispute .ab { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 6px; }
 .dispute .ab div { background: var(--graphite-2); padding: 6px 8px; border-radius: 4px; font-size: 12.5px; }
@@ -125,13 +126,13 @@ main { padding-top: 6px; }
 #databaseTable tr.earned td { color: var(--ink-dim); }
 
 /* Roadmap */
-.phase { border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px; margin: 10px 0; background: var(--graphite-2); }
+.phase { border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 14px; margin: 8px 0; background: var(--graphite-2); }
 .phase h3 { margin-top: 0; }
-.phase ul { margin: 4px 0; padding-left: 18px; }
+.phase ul { margin: 4px 0; padding-left: 18px; columns: 2; column-gap: 28px; }
 .phase li { margin-bottom: 2px; }
 .phase .ponr { color: var(--red); font-weight: bold; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; }
-#missableGrid table { width: 100%; border-collapse: collapse; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; }
-#missableGrid th, #missableGrid td { border: 1px solid var(--line); padding: 5px 7px; text-align: left; }
+#missableGrid table { width: 100%; border-collapse: collapse; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 11.5px; }
+#missableGrid th, #missableGrid td { border: 1px solid var(--line); padding: 3px 6px; text-align: left; }
 #missableGrid th { background: var(--graphite-3); color: var(--gold-soft); }
 #missableGrid tr.potential td { background: #2a1a16; }
 

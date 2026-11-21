@@ -188,7 +188,7 @@ export function renderTrophyDetail(t, container) {
     (masked ? '' : `<h3>Guide — in our own words</h3>${guideStepsHtml(t.guide)}`) +
     missableBoxHtml(t) +
     trackerBoxHtml(t) +
-    (masked ? '' : claimsHtml(t) + sourcesHtml(t) + disputesHtml(t));
+    (masked ? '' : disputesHtml(t) + claimsHtml(t) + sourcesHtml(t));
   container.querySelectorAll('[data-earned-toggle]').forEach((box) => {
     box.addEventListener('change', () => toggleEarned(t.id, box.checked));
   });
@@ -238,8 +238,15 @@ function renderTrophyList() {
       `${t.chapter ? ` · Ch. ${t.chapter}` : ''} ${flags}</span>`;
     li.append(box, wrap);
     li.tabIndex = 0;
-    li.addEventListener('click', () => selectTrophy(t.id));
+    li.addEventListener('click', (e) => {
+      // A click on the row's checkbox must reach the checkbox's own change
+      // handler: if the row re-renders first, the checkbox is detached and
+      // its change event never fires, so the toggle is silently swallowed.
+      if (e.target.closest('input')) return;
+      selectTrophy(t.id);
+    });
     li.addEventListener('keydown', (e) => {
+      if (e.target.closest('input')) return;
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
         selectTrophy(t.id);
@@ -285,7 +292,10 @@ function renderDatabase() {
       else td.append(c);
       tr.append(td);
     }
-    tr.addEventListener('click', () => selectTrophy(t.id, { view: 'trophy' }));
+    tr.addEventListener('click', (e) => {
+      if (e.target.closest('input')) return;
+      selectTrophy(t.id, { view: 'trophy' });
+    });
     rows.append(tr);
   }
 }
